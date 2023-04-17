@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    border-color: lightgray;
+}
+
+.main_container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form_container{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 50px;
+    background-color:lightblue;
+    border-radius: 8px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.card{
+    width: 100%;
+    border-radius: 1px;
+}
+
+.form_user{
+    border-radius: 1px;
+}
+
+.form_pswd{
+    border-radius: 1px;
+}
+
+.remember{
+    font-size: 10px;
+    border-radius: 1px;
+}
+
+.checkbox{
+
+}
+
+.login{
+    background-color:rgb(47, 182, 47);
+    color: white;
+    border-radius: 5px;
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.forgot{
+    font-size: 10px;
+    align-self: flex-end;
+}
+
+.width-100{
+    width: 100%;
+}
+
+.width-50px{
+    width: 10px;
+}
+
+.height{
+    height: 30px;
+}
+
+.space_around{
+    justify-content: space-between;
+}
+
+.padding{
+    padding-left: 60%;
+}

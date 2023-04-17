@@ -1,0 +1,21 @@
+.main_container{
+    display: flex;
+    width: 100vw;
+    border-top: 3px solid black;
+}
+html{
+    font-size: 30px;
+}
+.left_container{
+    width: 70%;
+    background-color: black;
+    color: white;
+    margin: 2px;
+    margin-right: 5px;
+}
+.right_container{
+    width: 30%;
+    background-color:dodgerblue;
+    margin: 2px;
+    margin-left: 5px;
+}

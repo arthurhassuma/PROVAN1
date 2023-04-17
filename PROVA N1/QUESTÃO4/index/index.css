@@ -1,0 +1,40 @@
+*{
+    border-radius: 15px;
+}
+
+.main_container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+    background-color: gray;
+    flex-direction: column;
+    width: 300px;
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.texto{
+font-size: 20px;
+margin-bottom: 0px;
+}
+
+.bar{
+    
+    width: 80%;
+    background-color: white;
+    height: 50px;
+}
+
+.progress{
+    width: 70%;
+    background-color: green;
+    height: 100%;
+}
